@@ -1,28 +1,28 @@
 class Pxh < Formula
   desc "Fast, cross-shell history mining tool with interactive fuzzy search and sync"
   homepage "https://github.com/chipturner/pxhist"
-  version "0.9.14"
+  version "0.9.15"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/chipturner/pxhist/releases/download/v#{version}/pxh-aarch64-apple-darwin.tar.gz"
-      sha256 "aacb3046df7575a7373f35936b5cccb38d646ffeb3a49c84a9b544ed1695e66b"
+      sha256 "9ddf45ba1a6d84eaee8cf30e902555eb6e6a85d93cc450de354b0ada62f57c85"
     end
     on_intel do
       url "https://github.com/chipturner/pxhist/releases/download/v#{version}/pxh-x86_64-apple-darwin.tar.gz"
-      sha256 "eb94e76481fc6420e5460c2b329e41d9f10aff50dee9c8c5b87d4b7e8d317da4"
+      sha256 "209217787a873e9806619d2992ede244ba31a5b2e28bb93c9cfdfd4e17339bd5"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/chipturner/pxhist/releases/download/v#{version}/pxh-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "acef24e482fc6ef97a2b0c2ddf9c66d1020bb0020a947634f1ed56c67593a1e1"
+      sha256 "59d80500244d45cbbd919e922ec66b1984a00b81135ed55eb4987a8dd9424e39"
     end
     on_intel do
       url "https://github.com/chipturner/pxhist/releases/download/v#{version}/pxh-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "35043f0b75a9fe6bf07691a3b616f1df4f134de9fea75a2d0b45c82326586d5e"
+      sha256 "086f73a3c28996e48808614e1fadb3f1aa79ef14470889f166a8fbb045110d4a"
     end
   end
 
