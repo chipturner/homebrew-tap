@@ -1,28 +1,28 @@
 class Gritty < Formula
   desc "Persistent remote shells that just work"
   homepage "https://github.com/chipturner/gritty"
-  version "0.12.5"
+  version "0.12.6"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
       url "https://github.com/chipturner/gritty/releases/download/v#{version}/gritty-aarch64-apple-darwin.tar.gz"
-      sha256 "983a04653df7b114da90a7d2771acd7fe3f137b41b9c1a802bbc3e4264989c51"
+      sha256 "22d3b84854f0562e96d1a18c12d56afe09e56385c53d9b75e5a33cf54113290d"
     end
     on_intel do
       url "https://github.com/chipturner/gritty/releases/download/v#{version}/gritty-x86_64-apple-darwin.tar.gz"
-      sha256 "01cebc8e3f85a8d4962cd77c73aa9dbd664e1f6b751b29b0ab3e8808d8b5b429"
+      sha256 "d3f39f8f0a86f11ff575c68f263e16d9dacf9c801257e79b75962b3b7ffae61d"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/chipturner/gritty/releases/download/v#{version}/gritty-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "4cd7acad8ddf5e682dcb24c811b0c24101512704e669daf1c58067c787d4bd58"
+      sha256 "0d8724212bdc231ff5f2c8f665a42264e3c0e279f14d1d48a775fd81b2beae48"
     end
     on_intel do
       url "https://github.com/chipturner/gritty/releases/download/v#{version}/gritty-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "08573cc87b0636a62d0f5b833ea4693c6e24b10cb2cb5185a4bda937c36a2753"
+      sha256 "2730cfd270b0209e2516e991758e42219b9cd2e0a2e649a7dad5bd89adde3a2c"
     end
   end
 
